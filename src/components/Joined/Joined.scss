@@ -1,0 +1,37 @@
+.joined-container {
+    text-align: center;
+
+    & .title {
+        float: left;
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 150px;
+    }
+
+    & .text {
+        margin-top: 20px;
+        display: inline-block;
+        width: 60%;
+        font-size: 20px;
+    }
+
+    & .header {
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 70px;
+        padding: 0px 10px;
+        border-bottom: 3px solid #7f55ff;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .purple {
+        margin-top: 60px;
+    }
+}

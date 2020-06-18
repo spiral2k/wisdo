@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import './animate.scss';
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+#wisdo-root {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}

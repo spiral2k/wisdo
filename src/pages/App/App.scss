@@ -1,0 +1,9 @@
+.app-container {
+    display: inline-block;
+    margin-top: 20px;
+    min-height: 100vh;
+
+    & .loader-containers {
+        top: 50px;
+    }
+}

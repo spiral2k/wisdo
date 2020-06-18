@@ -1,0 +1,6 @@
+.categories-container {
+    float: right;
+    width: calc(100% - 300px);
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.menu-container {
+    float: left;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+
+    & .menu-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        border-radius: 3px;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        cursor: pointer;
+
+        &.on,
+        &:hover {
+            color: #7f55ff;
+            background: #efeaff;
+        }
+    }
+}
